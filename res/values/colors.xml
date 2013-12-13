@@ -17,9 +17,9 @@
 <resources>
 
     <!-- Secondary text color in the Phone app -->
-    <color name="dialtacts_primary_text_color">#000000</color>
-    <color name="dialtacts_secondary_text_color">#888888</color>
-    <color name="dialpad_text_color">#ffffff</color>
+    <color name="dialtacts_primary_text_color">#d6d6d6</color>
+    <color name="dialtacts_secondary_text_color">#3F3F3F</color>
+    <color name="dialpad_text_color">#000000</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="call_log_missed_call_highlight_color">#FF0000</color>
@@ -39,6 +39,10 @@
 
     <!-- Background color of new dialer activity -->
     <color name="background_dialer_light">#cecece</color>
+    <color name="background_dialer_dark">#4c4c4c</color>
+
+    <color name="bg_tile_color_dark">#00000000</color>
+    <color name="background_dialer_tile_dark">#828282</color>
 
     <!-- Background color of dialer list items (contacts, call log entries) -->
     <color name="background_dialer_list_items">#eeeeee</color>
@@ -54,6 +58,9 @@
     <!-- Background color of action bars -->
     <color name="actionbar_background_color">#ffffff</color>
 
+    <!-- Dark background color of action bars -->
+    <color name="actionbar_background_color_dark">#222222</color>
+
     <!-- Color of the 1dp divider that separates favorites -->
     <color name="favorite_contacts_separator_color">#d0d0d0</color>
 
@@ -61,6 +68,11 @@
     <color name="searchbox_background_color">#ffffff</color>
     <!-- Text color of the search box -->
     <color name="searchbox_text_color">#d3d3d3</color>
+
+    <!-- Background color of the dark search box -->
+    <color name="searchbox_background_color_dark">#222222</color>
+    <!-- Text color of the dark search box -->
+    <color name="searchbox_text_color_dark">#E5E5E5</color>
 
     <!-- Color of the contact name in favorite tiles -->
     <color name="contact_tile_name_color">#f0f0f0</color>
@@ -75,5 +87,5 @@
     <color name="call_stats_incoming">#33b5e5</color>
     <color name="call_stats_outgoing">#99cc00</color>
     <color name="call_stats_missed">#eb1313</color>
-    <color name="call_stats_bar_background">#88888888</color>
+    <color name="call_stats_bar_background">#000000</color>
 </resources>

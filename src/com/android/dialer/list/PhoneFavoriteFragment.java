@@ -655,8 +655,9 @@ public class PhoneFavoriteFragment extends Fragment implements OnItemClickListen
                 resources.getDimensionPixelSize(R.dimen.favorites_row_top_padding),
                 resources.getDimensionPixelSize(R.dimen.favorites_row_bottom_padding));
 
+        view.setBackgroundColor(resources.getColor(R.color.bg_tile_color_dark));
         view.setDisplayName(resources.getString(R.string.show_all_contacts_button_text));
-        view.setDrawableResource(R.drawable.list_item_avatar_bg,
+        view.setDrawableResource(R.drawable.list_item_avatar_main_bg,
                 R.drawable.ic_menu_all_contacts_dk);
         return view;
     }

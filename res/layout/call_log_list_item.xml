@@ -42,7 +42,7 @@
             android:padding="@dimen/call_log_outer_margin"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@color/background_dialer_tile_dark"
             android:focusable="true"
             android:nextFocusRight="@+id/secondary_action_icon"
             android:nextFocusLeft="@+id/quick_contact_photo"
@@ -123,7 +123,7 @@
                 android:paddingBottom="@dimen/call_log_inner_margin"
                 android:paddingEnd="@dimen/call_log_inner_margin"
                 android:scaleType="center"
-                android:background="?android:attr/selectableItemBackground"
+                android:background="@color/background_dialer_tile_dark"
                 android:nextFocusLeft="@id/primary_action_view"
             />
         </LinearLayout>

@@ -76,7 +76,7 @@
             android:id="@+id/separator"
             android:layout_width="match_parent"
             android:layout_height="1dip"
-            android:background="@color/background_dialer_light"
+            android:background="@color/background_dialer_dark"
             android:layout_below="@+id/contact_background_sizer"
         />
         <View
@@ -120,7 +120,7 @@
             android:layout_alignTop="@id/contact_background_sizer"
             android:layout_alignEnd="@id/contact_background_sizer"
             android:layout_alignBottom="@id/contact_background_sizer"
-            android:background="?android:attr/selectableItemBackground"
+            android:background="@color/background_dialer_tile_dark"
         />
         <LinearLayout
             android:id="@+id/voicemail_container"
@@ -146,7 +146,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:focusable="true"
-                android:background="?android:attr/selectableItemBackground"
+                android:background="@color/background_dialer_tile_dark"
                 >
 
                 <LinearLayout
@@ -183,7 +183,7 @@
                 <View android:id="@+id/call_and_sms_divider"
                     android:layout_width="1px"
                     android:layout_height="32dip"
-                    android:background="@color/background_dialer_light"
+                    android:background="@color/background_dialer_dark"
                     android:layout_gravity="center_vertical"
                 />
 
@@ -195,7 +195,7 @@
                     android:gravity="center"
                     android:scaleType="centerInside"
                     android:focusable="true"
-                    android:background="?android:attr/selectableItemBackground"
+                    android:background="@color/background_dialer_tile_dark"
                 />
             </LinearLayout>
         </FrameLayout>

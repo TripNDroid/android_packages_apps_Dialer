@@ -103,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dip"
                 android:layout_below="@+id/contact_background_sizer"
-                android:background="@color/background_dialer_light" />
+                android:background="@color/background_dialer_dark" />
 
             <View
                 android:id="@+id/photo_text_bar"
@@ -146,7 +146,7 @@
                 android:layout_alignStart="@id/contact_background_sizer"
                 android:layout_alignEnd="@id/contact_background_sizer"
                 android:layout_alignTop="@id/contact_background_sizer"
-                android:background="?android:attr/selectableItemBackground" />
+                android:background="@color/background_dialer_tile_dark" />
 
             <FrameLayout
                 android:id="@+id/call_and_sms"
@@ -162,7 +162,7 @@
                     android:id="@+id/call_and_sms_main_action"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="?android:attr/selectableItemBackground"
+                    android:background="@color/background_dialer_tile_dark"
                     android:focusable="true"
                     android:orientation="horizontal" >
 
@@ -201,13 +201,13 @@
                         android:layout_width="1px"
                         android:layout_height="32dip"
                         android:layout_gravity="center_vertical"
-                        android:background="@color/background_dialer_light" />
+                        android:background="@color/background_dialer_dark" />
 
                     <ImageView
                         android:id="@+id/call_and_sms_icon"
                         android:layout_width="@color/call_log_voicemail_highlight_color"
                         android:layout_height="match_parent"
-                        android:background="?android:attr/selectableItemBackground"
+                        android:background="@color/background_dialer_tile_dark"
                         android:focusable="true"
                         android:gravity="center"
                         android:paddingStart="@dimen/call_log_inner_margin"
