@@ -24,7 +24,7 @@
     android:paddingStart="@dimen/call_log_indent_margin"
     android:paddingEnd="@dimen/call_log_outer_margin"
     android:orientation="vertical"
-    android:background="@color/background_dialer_list_items"
+    android:background="@android:color/transparent"
 >
     <LinearLayout
         android:layout_width="wrap_content"

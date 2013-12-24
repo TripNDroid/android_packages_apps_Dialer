@@ -18,7 +18,7 @@
 
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_primary_text_color">#d6d6d6</color>
-    <color name="dialtacts_secondary_text_color">#3F3F3F</color>
+    <color name="dialtacts_secondary_text_color">#727272</color>
     <color name="dialpad_text_color">#FFFFFF</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
@@ -44,10 +44,10 @@
     <color name="secondary_background_dialer_dark">#4C4C4C</color>
 
     <color name="bg_tile_color_dark">#00000000</color>
-    <color name="background_dialer_tile_dark">#828282</color>
+    <color name="background_dialer_tile_dark">#262626</color>
 
     <!-- Background color of dialer list items (contacts, call log entries) -->
-    <color name="background_dialer_list_items">#A8A8A8</color>
+    <color name="background_dialer_list_items">@android:color/transparent</color>
 
     <!-- Background color of new dialpad -->
     <color name="background_dialpad">#f2020709</color>
