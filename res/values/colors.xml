@@ -19,7 +19,7 @@
     <color name="dialtacts_primary_text_color">#333333</color>
     <!-- Secondary text color in the Dialer -->
     <color name="dialtacts_secondary_text_color">#636363</color>
-    <color name="dialer_red_highlight_color">#ff1744</color>
+    <color name="dialer_red_highlight_color">#f22213</color>
     <color name="dialer_green_highlight_color">#00c853</color>
 
     <color name="dialer_button_text_color">#fff</color>
@@ -48,11 +48,11 @@
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="call_log_missed_call_highlight_color">@color/dialer_red_highlight_color</color>
     <!-- Color of the text describing an unconsumed voicemail. -->
-    <color name="call_log_voicemail_highlight_color">#33b5e5</color>
+    <color name="call_log_voicemail_highlight_color">#5eaed6</color>
 
     <!-- Background color of visual voicemail promo card. -->
-    <color name="visual_voicemail_promo_card_background">#673ab7</color>
-    <color name="visual_voicemail_promo_card_divider">#7d57c1</color>
+    <color name="visual_voicemail_promo_card_background">#009ce5</color>
+    <color name="visual_voicemail_promo_card_divider">#4993f4</color>
     <color name="promo_card_text">#ffffff</color>
 
     <color name="voicemail_icon_tint">@color/call_log_icon_tint</color>
@@ -64,7 +64,7 @@
     <color name="voicemail_playback_seek_bar_already_played">@color/dialer_theme_color</color>
 
     <!-- Standard color for selected items. -->
-    <color name="item_selected">#660099cc</color>
+    <color name="item_selected">#6600a3ef</color>
 
     <!-- White background for dialer -->
     <color name="background_dialer_white">#ffffff</color>
@@ -103,7 +103,7 @@
     <color name="call_log_action_text">@color/dialer_theme_color</color>
 
     <!-- Color for missed call icons. -->
-    <color name="missed_call">#ff2e58</color>
+    <color name="missed_call">#f23d30</color>
     <!-- Color for answered or outgoing call icons. -->
     <color name="answered_call">@color/dialer_green_highlight_color</color>
     <!-- Color for blocked call icons. -->

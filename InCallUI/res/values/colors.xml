@@ -73,8 +73,8 @@
     <color name="glowpad_text_widget_ring_color">#ffffff</color>
     <color name="glowpad_widget_active_color">#ffffff</color>
     <color name="glowpad_text_widget_normal_tint">#cccccc</color>
-    <color name="glowpad_call_widget_normal_tint">#00c853</color>
-    <color name="glowpad_end_call_widget_normal_tint">#ff1744</color>
+    <color name="glowpad_call_widget_normal_tint">#00A9f7</color>
+    <color name="glowpad_end_call_widget_normal_tint">#ea392c</color>
     <color name="glowpad_incoming_widget_tint">#a3a3a3</color>
     <color name="glowpad_incoming_widget_background_tint">#ffffff</color>
 
@@ -82,7 +82,7 @@
     <color name="accessible_answer_hint_text_color">#B2FFFFFF</color>
 
     <!-- 20% opacity, theme color. -->
-    <color name="incall_dialpad_touch_tint">#330288d1</color>
+    <color name="incall_dialpad_touch_tint">#330084c6</color>
 
     <!-- Background colors for InCallUI. This set of colors is a subset of
         https://spec.googleplex.com/quantumpalette#extended which pass WCAG AA and all have a
@@ -92,23 +92,23 @@
         activity colors.
     -->
     <array name="background_colors">
-        <item>#00796B</item>
-        <item>#3367D6</item>
-        <item>#303F9F</item>
-        <item>#7B1FA2</item>
-        <item>#C2185B</item>
-        <item>#C53929</item>
+        <item>#0084C6</item>
+        <item>#4486F7</item>
+        <item>#295293</item>
+        <item>#AF47BC</item>
+        <item>#803AD1</item>
+        <item>#EC5043</item>
     </array>
 
     <!-- Darker versions of background_colors, two shades darker. These colors are used for the
          status bar. -->
     <array name="background_colors_dark">
-        <item>#00695C</item>
-        <item>#2A56C6</item>
-        <item>#283593</item>
-        <item>#6A1B9A</item>
-        <item>#AD1457</item>
-        <item>#B93221</item>
+        <item>#0071AA</item>
+        <item>#366BC1</item>
+        <item>#1C4177</item>
+        <item>#8F3A99</item>
+        <item>#6630AD</item>
+        <item>#C64339</item>
     </array>
 
     <!-- Ripple color used over light backgrounds. -->
